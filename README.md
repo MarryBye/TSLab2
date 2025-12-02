@@ -48,8 +48,8 @@ import { formatNumber } from './src/format/number';
 console.log(formatNumber(123.456)); // наприклад "123.46" якщо APP_PRECISION=2
 ```
 
-// Logger з конфігурацією із .env (з авторизованою валідацією zod)
 ```
+// Логгер
 import { Logger, type LogLevel } from './src/logger';
 import { config } from './src/config';
 
