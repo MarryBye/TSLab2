@@ -62,8 +62,7 @@ logger.debug('Detailed debug info'); // виведеться тільки якщ
 
 APP_PRECISION — очікується ціле число 0..10 (default: 2). Впливає на точність formatNumber.
 LOG_LEVEL — один із: silent | info | debug (default: info). Керує поведінкою Logger.
-Посилання на теги релізів
 
+Посилання на теги релізів
 Tags: https://github.com/MarryBye/TSLab2/tags
 Releases: https://github.com/MarryBye/TSLab2/releases
-Якщо треба — можу додати функцію groupBy у кодову базу та оновити експорт у src/index.ts.
