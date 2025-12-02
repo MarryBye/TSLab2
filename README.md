@@ -60,7 +60,7 @@ logger.debug('Detailed debug info'); // виведеться тільки якщ
 
 Нотатка про .env
 
-APP_PRECISION — очікується ціле число 0..10 (default: 2). Впливає на точність formatNumber.
+APP_PRECISION — очікується ціле число 0..10 (default: 2). Впливає на точність formatNumber.  
 LOG_LEVEL — один із: silent | info | debug (default: info). Керує поведінкою Logger.
 
 Посилання на теги релізів
