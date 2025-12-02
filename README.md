@@ -49,12 +49,14 @@ console.log(formatNumber(123.456)); // наприклад "123.46" якщо APP_
 ```
 
 // Logger з конфігурацією із .env (з авторизованою валідацією zod)
+```
 import { Logger, type LogLevel } from './src/logger';
 import { config } from './src/config';
 
 const logger = new Logger(config.LOG_LEVEL as LogLevel);
 logger.info('Application started');
 logger.debug('Detailed debug info'); // виведеться тільки якщо LOG_LEVEL === 'debug'
+```
 
 Нотатка про .env
 
